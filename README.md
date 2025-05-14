@@ -66,6 +66,7 @@ Make sure you have:
 - All score files inside the `scores/` folder
 - All instrument icons inside `images/`
 - The background image (`1361079.png`) for video game mode inside `images/` as well
+- Also in Instrument.py i removed the delay (the last line of code of the original file) because it helped my piano to sound more realistic by that i mean the keys could be played simultaneously.
 
 ### 3. Launch the app
 
@@ -136,18 +137,13 @@ You can open these files from the GUI:
 ## 💡 Future Improvements
 
 - Export to `.wav` or `.mp3`
-- Visual animations on key press
 - Timeline editing
 - BPM/metronome
 - MIDI import/export
-
----
-
-## 🙏 Credits
-
-- Hollow Knight iconography © Team Cherry (fan content, educational use)
-- Music transcriptions adapted from public MIDI sources and manual transcription
-- UI design and audio synthesis built in Python
+- 🎸 Guitar: Add plucked-string synthesis
+- 🥁 Drum Machine: Integrate rhythmic pads with samples
+- 🎯 Rhythm game mode: Match a melody as it plays
+- ⭐ Scoring system: Track note accuracy and timing
 
 ---
 
@@ -155,8 +151,8 @@ You can open these files from the GUI:
 
 Project by:
 
-- Shayan
-- [Other team member names if any]
+- JEYANESHAN Dacshayan
+- KANDAVEL Kavinan
 
 For the 2024–2025 HMI Final Project.
 
@@ -164,4 +160,4 @@ For the 2024–2025 HMI Final Project.
 
 ## 📜 License
 
-This project is for academic and personal use only. Hollow Knight icons and references © Team Cherry.
+This project is for academic and personal use only.
