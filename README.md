@@ -54,20 +54,13 @@ This Human-Machine Interface (HMI) project simulates a set of digital musical in
 
 ## ▶️ How to Run
 
-### 1. Clone the project
-
-```bash
-git clone https://github.com/yourusername/hmi-music-app
-cd hmi-music-app
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 
 ```bash
 pip install PyQt5 pygame numpy scipy
 ```
 
-### 3. Organize your folders
+###2. Organize your folders
 
 Make sure you have:
 - All score files inside the `scores/` folder
