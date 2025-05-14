@@ -60,14 +60,14 @@ This Human-Machine Interface (HMI) project simulates a set of digital musical in
 pip install PyQt5 pygame numpy scipy
 ```
 
-###2. Organize your folders
+### 2. Organize your folders
 
 Make sure you have:
 - All score files inside the `scores/` folder
 - All instrument icons inside `images/`
 - The background image (`1361079.png`) for video game mode inside `images/` as well
 
-### 4. Launch the app
+### 3. Launch the app
 
 ```bash
 python test.py
